@@ -57,7 +57,7 @@ function ShopProduct() {
       {statusCart?<CartProduct listProduct={arrCart} setListProduct={setArrayCart} handClick={handClick}/>:""}
       <div className="tiltle">
         <h1>Shop Product</h1>
-        <h2 onClick={handleClickCart}>My Cart</h2>
+        <h2 onClick={handleClickCart}>My Cart <span className="lengtCart">{arrCart.length}</span></h2>
       </div>
 
       <div className="ContainerProduct">

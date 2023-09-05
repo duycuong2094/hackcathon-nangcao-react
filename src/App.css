@@ -92,3 +92,8 @@ h2:hover{
 .imgCart{
   width: 20%;
 }
+.lengtCart{
+  color: white;
+  border: 1px solid red;
+  background-color: red;
+}
